@@ -24,7 +24,7 @@ Instantly upgrade your archive with the default template, or create your own! Bo
 For a more detailed introduction to BotRoss, check out the [beginner's guide]() in the Wiki.
 
 ## Installation
-BotRoss is published on PyPI and can be installed through pip. Alternatively, you can download a release through [GitHub](/releases).
+BotRoss is published on PyPI and can be installed through pip. 
 ```console
 pip install botross
 ```
