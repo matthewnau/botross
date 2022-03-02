@@ -30,7 +30,7 @@ The following are some render examples that used BotRoss' `default` template. Th
 ### Example 1 - YouTube Video
 
 #### Input:
-> ![example-1-input](.github/example-1-input.png) Original thumbnail - scraped from [this](https://www.youtube.com/watch?v=42iQKuQodW4) video uploaded by *Fireship*.
+> ![example-1-input](.github/example-1-input.png) Original thumbnail - scraped from [this](https://www.youtube.com/watch?v=42iQKuQodW4) video created by *Fireship*.
 
 #### Output:
 > ![example-1-output](.github/example-1-output.png) Generated thumbnail
@@ -44,7 +44,7 @@ botross -i image1.png -p fireship.jpg -pf youtube -u Fireship
 
 #### Input:
 > <div align="center"><img src=".github/example-2-input.jpg" width="50%" /></div>
-> Original thumbnail - scraped from <a href="https://www.instagram.com/p/COA9b3oiaBo/">this</a> video uploaded by <i>gosmowdesign</i>
+> Original thumbnail - scraped from <a href="https://www.instagram.com/p/COA9b3oiaBo/">this</a> video created by <i>gosmowdesign</i>
 
 #### Output:
 > ![example-2-output](.github/example-2-output.png) Generated thumbnail
@@ -52,4 +52,18 @@ botross -i image1.png -p fireship.jpg -pf youtube -u Fireship
 #### Command:
 ```
 botross -i image2.png -p gosmowdesign.jpg -pf instagram -u gosmowdesign
+```
+
+### Example 3 - Spotify Podcast
+
+#### Input:
+> <div align="center"><img src=".github/example-3-input.jpeg" width="50%" /></div>
+> Original thumbnail - scraped from <a href="https://open.spotify.com/episode/0yyrgf9x4x8BB7i8VENFbF/">this</a> podcast created by <i>Jack Rhysider</i>
+
+#### Output:
+> ![example-2-output](.github/example-3-output.png) Generated thumbnail
+
+#### Command:
+```
+botross -i image3.png -p "Jack Rhysider.jpeg" -pf spotify -u "Darknet Diaries"
 ```
