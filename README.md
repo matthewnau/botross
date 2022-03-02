@@ -27,10 +27,28 @@ For a more detailed introduction to BotRoss, check out the [beginner's guide]() 
 
 The following are some render examples that used BotRoss' `default` template. The `input-image`, `output-image`, and command structure are all shown for each example provided.
 
-### Example 1: A YouTube Video
+### Example 1 - YouTube Video
 
-#### `input:`
-> ![example-1-input](.github/example-1-input.png) Original thumbnail - scraped from [this](https://www.youtube.com/watch?v=42iQKuQodW4) video by Fireship.
+#### Input:
+> ![example-1-input](.github/example-1-input.png) Original thumbnail - scraped from [this](https://www.youtube.com/watch?v=42iQKuQodW4) video uploaded by *Fireship*.
 
-#### `output:`
+#### Output:
 > ![example-1-output](.github/example-1-output.png) Generated thumbnail
+
+#### Command:
+```
+botross -i image1.png -p fireship.jpg -pf youtube -u Fireship
+```
+
+### Example 2 - Instagram Video
+
+#### Input:
+> ![example-2-input](.github/example-2-input.jpg) Original thumbnail - scraped from [this](https://www.instagram.com/p/COA9b3oiaBo/) video uploaded by *gosmowdesign*
+
+#### Output:
+> ![example-2-output](.github/example-2-output.png) Generated thumbnail
+
+#### Command:
+```
+botross -i image2.png -p gosmowdesign.jpg -pf instagram -u gosmowdesign
+```
