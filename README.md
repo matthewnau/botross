@@ -36,7 +36,7 @@ The following are some render examples that used BotRoss' `default` template. Th
 > ![example-1-output](.github/example-1-output.png) Generated thumbnail
 
 #### Command:
-```
+```console
 botross -i image1.png -p fireship.jpg -pf youtube -u Fireship
 ```
 
@@ -50,7 +50,7 @@ botross -i image1.png -p fireship.jpg -pf youtube -u Fireship
 > ![example-2-output](.github/example-2-output.png) Generated thumbnail
 
 #### Command:
-```
+```console
 botross -i image2.png -p gosmowdesign.jpg -pf instagram -u gosmowdesign
 ```
 
@@ -64,6 +64,6 @@ botross -i image2.png -p gosmowdesign.jpg -pf instagram -u gosmowdesign
 > ![example-2-output](.github/example-3-output.png) Generated thumbnail
 
 #### Command:
-```
+```console
 botross -i image3.png -p "Jack Rhysider.jpeg" -pf spotify -u "Darknet Diaries"
 ```
