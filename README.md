@@ -43,7 +43,8 @@ botross -i image1.png -p fireship.jpg -pf youtube -u Fireship
 ### Example 2 - Instagram Video
 
 #### Input:
-> ![example-2-input](.github/example-2-input.jpg) Original thumbnail - scraped from [this](https://www.instagram.com/p/COA9b3oiaBo/) video uploaded by *gosmowdesign*
+> <div align="center"><img src=".github/example-2-input.jpg" width="50%" /></div>
+> Original thumbnail - scraped from <a href="https://www.instagram.com/p/COA9b3oiaBo/">this</a> video uploaded by <i>gosmowdesign</i>
 
 #### Output:
 > ![example-2-output](.github/example-2-output.png) Generated thumbnail
