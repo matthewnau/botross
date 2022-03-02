@@ -8,3 +8,17 @@
 
 </div>
 
+## About
+
+<!-- <Main description> -->
+BotRoss is a Python based image rendering tool that uses HTML-defined templates and the [html2image](https://github.com/vgalin/html2image) package to generate dynamic thumbnails. The main purpose of BotRoss is to help video preservationists better organize and display their content, while also making it possible for creators to automate a step in their workflow.
+
+> BotRoss helps to bridge the gap between Aesthetics and Organization.
+
+Designing a visual schema that elegantly represents content from a wide variety of sources often isn't anyone's top priority. But not having a design schema can even make it a hassle when searching through vast amounts of organized content.
+
+BotRoss addresses this problem by enabling users to easily render thumbnails that display additional metadata. It can be easily implemented in any downloaders' post-processing pipeline.
+
+Instantly upgrade your archive with the default template, or create your own! BotRoss is extremely flexible and enables you to represent your content however you would like.
+
+For a more detailed introduction to BotRoss, check out the [beginner's guide]() in the Wiki.
