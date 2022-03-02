@@ -23,6 +23,12 @@ Instantly upgrade your archive with the default template, or create your own! Bo
 
 For a more detailed introduction to BotRoss, check out the [beginner's guide]() in the Wiki.
 
+## Installation
+BotRoss is published on PyPI and can be installed through pip. Alternatively, you can download a release through [GitHub](/releases).
+```console
+pip install botross
+```
+
 ## Examples
 
 The following are some render examples that used BotRoss' `default` template. The `input-image`, `output-image`, and command structure are all shown for each example provided.
