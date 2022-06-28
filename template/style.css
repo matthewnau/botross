@@ -1,0 +1,109 @@
+@font-face {
+	src: url('[font_file]');
+	font-family: "Circular Medium";
+}
+html, body {
+	width: 100vw;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+:root {
+	font-size: 16px;
+	--profile-image-url: url('[profile_image]');
+	--blurred-thumbnail-url: url('[blurred_thumbnail]');
+}
+.thumbnail {
+	width: 960px;
+	height: 540px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.attribution-banner {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	z-index: 4;
+}
+.attribution-col {
+	display: flex;
+	flex-direction: row;
+	padding: 1rem 1.5rem;
+	background: #000;
+}
+#content-uploader {
+	flex: 1;
+	background: #1e2128;
+	color: #fff;
+	font-family: "Circular Medium";
+	font-size: [uploader_font_size]rem;
+}
+.uploader-profile-image {
+	width: 3.5rem;
+	height: 3.5rem;
+	background-image: var(--profile-image-url);
+	background-size: contain;
+	border-radius: 50%;
+}
+.uploader-profile-name {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 1rem;
+	white-space: nowrap;
+	outline: none;
+}
+.platform-logo {
+	height: 3.75rem;
+}
+#platform-attribution {
+	justify-content: center;
+	align-items: center;
+	padding: .5rem 1.5rem;
+}
+.canvas {
+	position: relative;
+	height: auto;
+	width: 100%;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 2rem;
+}
+.canvas-background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	background-image: var(--blurred-thumbnail-url);
+	background-size: cover;
+	background-position: center center;
+}
+.canvas-blur-layer {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+	background-color: rgba(255,255,255,.2); /* white */
+}
+.original-thumbnail {
+	height: 23rem;
+	border-radius: 1.5rem;
+	box-shadow: 0 4px 60px rgb(0 0 0 / 50%);
+	z-index: 3;
+}
+.original-thumbnail[platform="instagram"] {
+	width: 23rem;
+	object-fit: cover;
+}
+.original-thumbnail[square-corners="true"] {
+	border-radius: .5rem;
+}
